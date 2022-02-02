@@ -27,6 +27,5 @@ nav a:hover{
     align-items: center;
     height: 60px;
     box-shadow: 10px 10px 20px rgb(218,222,225);
-    border-radius: 15px;
     cursor: pointer;
 }
