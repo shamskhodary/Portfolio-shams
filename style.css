@@ -2,18 +2,18 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav a {
     text-decoration: none;
-    color: rgba(12, 1, 1, 0.692);
+    color: #fff ;
     font-size: 15px;
     margin: 20px;
-    font-family: 'Montserrat', sans-serif;
     padding: 9px 30px 9px 30px;
-    font-weight: 750;
-    background:rgba(179, 149, 149, 0.692);
-    border: 2px solid rgb(75, 61, 61);
+    font-weight: 600px;
+    background: #dbb6e2;
+    border: 2px solid rgb(170, 151, 151);
     border-radius: 30px 10px;
 
 }
@@ -28,4 +28,63 @@ nav a:hover{
     height: 60px;
     box-shadow: 10px 10px 20px rgb(218,222,225);
     cursor: pointer;
+}
+
+
+section {
+    width: 100%;
+    margin: 50px;
+}
+
+.coder {
+    position: absolute;
+    left: 28%;
+    display: inline-block;
+}
+
+h3 {
+    padding-left: 75px;
+    line-height: 1.5em;
+}
+
+.main-container {
+    padding: 120px 20px 30px 20px;
+    width: 350px;
+    height: 100%;
+    position: absolute;
+    line-height: 1.5em;
+
+}
+
+.main-container1 {
+position: absolute;
+right: 0px;
+padding: 120px 90px 30px 20px;
+width: 350px;
+line-height: 1.5em;
+
+}
+
+.about-me {
+  bottom: -260px;
+  width: 500px;
+  height: 250px;
+  background-color: #c3ccdc;
+  position: absolute;
+  border-radius: 20px;
+  box-shadow: 2px 2px 12px rgb(218,222,225);
+  margin: 20px;
+  line-height: 1.5em;
+
+}
+
+.heading-about {
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.paragraph {
+line-height: 1.5em;
+padding: 10px 12px 0px 12px;
 }
